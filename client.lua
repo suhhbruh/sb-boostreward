@@ -16,3 +16,8 @@ end)
 RegisterNetEvent('sb-boostreward:client:error', function()
     QBCore.Functions.Notify(Config.Messages.Error, 'error')
 end)
+
+RegisterNetEvent('sb-boostreward:client:cooldown', function()
+    QBCore.Functions.Notify(Config.Messages.Cooldown, 'error')
+end)
+
